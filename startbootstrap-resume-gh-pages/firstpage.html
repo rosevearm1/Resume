@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" type="text/css" href="../startbootstrap-resume-gh-pages/firstpagestyles.css"></link>
+
+
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+    function initViz() {
+      var containerDiv = document.getElementById("vizContainer"),
+          url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms",
+          options = {
+            hideTabs: true,
+            onFirstInteractive: function () {
+              console.log("Run this code when the viz has finished loading.");
+            }
+          };
+    
+      // Create a viz object and embed it in the container div.
+      var viz = new tableau.Viz(containerDiv, url, options);
+    }
+    </script>
+
+
+</head>
+
+<body>
+<div class="common header"
+    <h1 id="Top">What I've Learned at College</h1>
+    
+</div>
+
+<nav>
+    <a href="../startbootstrap-resume-gh-pages/index.html">My Resume</a>
+</nav>
+
+<div class="common mainbody">
+<br>
+<br>
+
+<h3>The Classes</h3>
+        <ul>
+            <li>DANCE 180 + 280</li>
+                <ol>
+                    <li>Foxtrot</li>
+                    <li>Waltz</li>
+                    <li>Polka</li>
+                    <li>Cha Cha</li>
+                    <li>Swing</li>
+                </ol>
+            <li>IS 110 + IS 201</li>
+                <ol>
+                    <li>Excel</li>
+                    <li>VBA</li>
+                    <li>Html + CSS</li>
+                    <li>Tableau</li>
+                </ol>
+            <li><i>DANCE 260</i>
+            <li>DANCE 291 + 392</li>
+            <li>REL A 250 + 275</li>
+            <li>WRTG 150</li>
+            <li>A HTG 100</li>
+            
+        </ul>
+    <br>
+        
+    <br>
+
+    <center><img src="../startbootstrap-resume-gh-pages/assets/img/ResumePhoto.jpg" alt="Resume Photo" width="450"></center>
+    
+    <br>
+    <br>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/cl9eCcttpY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+    <br>
+    <br>
+
+
+
+    
+
+<center><body onload="initViz();">
+  <div id="vizContainer" style="width:800px; height:700px;"></div>
+</body></center>
+
+    <center><a href="#top">^ To the Top ^</a></center>
+
+</div>
+
+</body>
+
+</html>
